@@ -100,9 +100,16 @@ footer .copyright a {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 480) {
+@media (max-width: 767px) {
   .contact-info div.col-xs-6 {
     width:  100%;
+  }
+  .intro-block .photo-container {
+    width: 100%;
+  }
+  .intro-block .info-container {
+    width:  100%;
+    margin-top:  10px;
   }
 }
 
